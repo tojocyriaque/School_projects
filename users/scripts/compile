@@ -1,0 +1,9 @@
+#!/usr/bin/zsh
+
+gcc src/usersAuths/main.c -o usersAuth.cgi 
+gcc src/usersAuths/search.c -o searchUser.cgi
+gcc src/usersAuths/search_pages.c -o search_pages.cgi
+gcc src/usersAuths/normal_pages.c -o normal_pages.cgi
+gcc src/login_src/login.c -o login.cgi
+gcc src/login_src/logout.c -o logout.cgi
+./insert_files

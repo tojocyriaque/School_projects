@@ -1,0 +1,31 @@
+root:x:0:0::/root:/bin/bash
+bin:x:1:1::/:/usr/bin/nologin
+daemon:x:2:2::/:/usr/bin/nologin
+mail:x:8:12::/var/spool/mail:/usr/bin/nologin
+ftp:x:14:11::/srv/ftp:/usr/bin/nologin
+http:x:33:33::/srv/http:/usr/bin/nologin
+nobody:x:65534:65534:Kernel Overflow User:/:/usr/bin/nologin
+dbus:x:81:81:System Message Bus:/:/usr/bin/nologin
+systemd-coredump:x:980:980:systemd Core Dumper:/:/usr/bin/nologin
+systemd-network:x:979:979:systemd Network Management:/:/usr/bin/nologin
+systemd-oom:x:978:978:systemd Userspace OOM Killer:/:/usr/bin/nologin
+systemd-journal-remote:x:977:977:systemd Journal Remote:/:/usr/bin/nologin
+systemd-journal-upload:x:976:976:systemd Journal Upload:/:/usr/bin/nologin
+systemd-resolve:x:975:975:systemd Resolver:/:/usr/bin/nologin
+systemd-timesync:x:974:974:systemd Time Synchronization:/:/usr/bin/nologin
+tss:x:973:973:tss user for tpm2:/:/usr/bin/nologin
+uuidd:x:68:68::/:/usr/bin/nologin
+tojo:x:1000:1000:tojo:/home/tojo:/usr/bin/zsh
+polkitd:x:102:102:PolicyKit daemon:/:/usr/bin/nologin
+dhcp:x:971:971:DHCP daemon:/:/usr/bin/nologin
+dhcpcd:x:970:970:dhcpcd privilege separation:/:/usr/bin/nologin
+git:x:969:969:git daemon user:/:/usr/bin/git-shell
+avahi:x:968:968:Avahi mDNS/DNS-SD daemon:/:/usr/bin/nologin
+geoclue:x:966:966:Geoinformation service:/var/lib/geoclue:/usr/bin/nologin
+lightdm:x:965:965:Light Display Manager:/var/lib/lightdm:/usr/bin/nologin
+usbmux:x:140:140:usbmux user:/:/usr/bin/nologin
+sddm:x:964:964:SDDM Greeter Account:/var/lib/sddm:/usr/bin/nologin
+colord:x:963:963:Color management daemon:/var/lib/colord:/usr/bin/nologin
+rtkit:x:133:133:RealtimeKit:/proc:/usr/bin/nologin
+mit:x:1001:1001::/home/mit:/usr/bin/zsh
+misa:x:1002:1002::/home/misa:/usr/bin/bash

@@ -1,0 +1,2 @@
+journalctl _COMM=su -q | grep -iv "FAILED" | grep -iv "root" | grep -iv "authentication" | awk '{ cmd = "date -d \" "$1" "$2" "$3" \" "; cmd | getline formatted_date; close(cmd); gsub($1" "$2" "$3, formatted_date); gsub("  ", " "); print }' | awk '{ if($0 ~ /pam_unix/ ){print $0} else{print $1" "$2" "$3" "$4" "$5" "$6" "$7" "$8" "$9" pam_unix(su:session): session opened for user "$12"(uid= "; print $0} }'  > files/auths.txt
+echo -n "" > files/marqueur.txt

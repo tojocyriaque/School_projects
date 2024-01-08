@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+
+		body{
+			display: flex;
+			justify-content: center;
+			background-size: cover;
+			background-image: url(images/Dessert_light.jpg);
+		}
+
+		label{
+			font-size: xx-large;
+		}
+
+		.formulaire{
+			height: 50vh;
+			width: fit-content;
+			margin: 1em;
+			padding: 2em 0 0 2.5em;
+			border: solid #ffffff .2em;
+			border-radius: 1em;
+			font: larger sans-serif;
+			background-color: #ddd6d66c;
+			color: whitesmoke;
+			box-shadow: 1em 1em 2em .5em #2b2a2a88;
+		}
+
+		.inp{
+			width: fit-content;
+			margin: 0 0 2em 2em;
+		}
+
+		.text_inp{
+			color: #a8aab1;
+			background-color: #f5f5f5;
+			padding: .06rem;
+			font-family: sans-serif;
+			font-weight: lighter;
+			font-size: x-large;
+			border: 0.2rem solid white;
+			border-radius: .2rem;
+			outline: none;
+			width: 20vw;
+		}
+
+		.text_inp:focus{
+			box-shadow: 0 0 1em .1em rgba(0, 255, 255, 0.486);
+		}
+
+		.sign_btns{
+			width: fit-content;
+			margin: 0 4rem 0 2em;
+			padding: 0 4rem 0 3rem;
+		}
+
+		.sign_btn{
+			font-family: sans-serif;
+			font-size: x-large;
+			color: #f6fbfc;
+			background-color: #91cde5;
+			border: .15rem solid #ffffff;
+			border-radius:.4rem;
+		}
+
+	</style>
+    <title>Login</title>
+</head>
+
+<body>
+    <form class="formulaire" action="http://www.users.mg/scripts/login.cgi" method="post">
+        <div class="inp">
+			<label for="">USERNAME</label><br>
+        	<input type="text" name="username" placeholder="Username" class="text_inp">
+		</div>
+        
+		<div class="inp">
+			<label for="">PASSWORD</label><br>
+        	<input type="PASSWORD" name="password" placeholder="password" class="text_inp"><br>
+		</div>
+
+		<div class="sign_btns">
+			<input type="submit" name="action" value="signin" class="sign_btn">
+			<input type="submit" name="action" value="signup" class="sign_btn">
+		</div>
+
+    </form>
+</body>
+</html>

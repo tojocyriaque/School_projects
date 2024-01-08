@@ -1,0 +1,104 @@
+Thu Oct 12 08:37:59 PM EAT 2023 ramaroson su[43933]: pam_unix(su:session): session opened for user tojo(uid= 
+Thu Oct 12 08:37:59 PM EAT 2023 ramaroson su[43933]: (to misa) tojo on pts/0
+Thu Oct 12 08:37:59 PM EAT 2023 ramaroson su[43933]: pam_unix(su:session): session opened for user misa(uid=1002) by tojo(uid=1000)
+Thu Oct 12 08:38:02 PM EAT 2023 ramaroson su[43933]: pam_unix(su:session): session closed for user misa
+Fri Oct 13 04:32:32 PM EAT 2023 ramaroson su[12849]: pam_unix(su:session): session opened for user tojo(uid= 
+Fri Oct 13 04:32:32 PM EAT 2023 ramaroson su[12849]: (to misa) tojo on pts/0
+Fri Oct 13 04:32:32 PM EAT 2023 ramaroson su[12849]: pam_unix(su:session): session opened for user misa(uid=1002) by tojo(uid=1000)
+Fri Oct 13 04:32:43 PM EAT 2023 ramaroson su[12906]: pam_unix(su:session): session opened for user tojo(uid= 
+Fri Oct 13 04:32:43 PM EAT 2023 ramaroson su[12906]: (to mit) tojo on pts/0
+Fri Oct 13 04:32:43 PM EAT 2023 ramaroson su[12906]: pam_unix(su:session): session opened for user mit(uid=1001) by tojo(uid=1000)
+Fri Oct 13 04:33:02 PM EAT 2023 ramaroson su[12971]: pam_unix(su:session): session opened for user tojo(uid= 
+Fri Oct 13 04:33:02 PM EAT 2023 ramaroson su[12971]: (to misa) tojo on pts/0
+Fri Oct 13 04:33:02 PM EAT 2023 ramaroson su[12971]: pam_unix(su:session): session opened for user misa(uid=1002) by tojo(uid=1000)
+Fri Oct 13 04:33:10 PM EAT 2023 ramaroson su[13035]: pam_unix(su:session): session opened for user tojo(uid= 
+Fri Oct 13 04:33:10 PM EAT 2023 ramaroson su[13035]: (to misa) tojo on pts/0
+Fri Oct 13 04:33:10 PM EAT 2023 ramaroson su[13035]: pam_unix(su:session): session opened for user misa(uid=1002) by tojo(uid=1000)
+Fri Oct 13 04:33:10 PM EAT 2023 ramaroson su[13035]: pam_unix(su:session): session closed for user misa
+Fri Oct 13 04:33:14 PM EAT 2023 ramaroson su[13059]: pam_unix(su:session): session opened for user tojo(uid= 
+Fri Oct 13 04:33:14 PM EAT 2023 ramaroson su[13059]: (to mit) tojo on pts/0
+Fri Oct 13 04:33:14 PM EAT 2023 ramaroson su[13059]: pam_unix(su:session): session opened for user mit(uid=1001) by tojo(uid=1000)
+Fri Oct 13 04:33:38 PM EAT 2023 ramaroson su[13123]: pam_unix(su:session): session opened for user tojo(uid= 
+Fri Oct 13 04:33:38 PM EAT 2023 ramaroson su[13123]: (to misa) tojo on pts/0
+Fri Oct 13 04:33:38 PM EAT 2023 ramaroson su[13123]: pam_unix(su:session): session opened for user misa(uid=1002) by tojo(uid=1000)
+Fri Oct 13 04:33:48 PM EAT 2023 ramaroson su[13179]: pam_unix(su:session): session opened for user tojo(uid= 
+Fri Oct 13 04:33:48 PM EAT 2023 ramaroson su[13179]: (to misa) tojo on pts/0
+Fri Oct 13 04:33:48 PM EAT 2023 ramaroson su[13179]: pam_unix(su:session): session opened for user misa(uid=1002) by tojo(uid=1000)
+Fri Oct 13 04:34:08 PM EAT 2023 ramaroson su[13179]: pam_unix(su:session): session closed for user misa
+Fri Oct 13 04:34:09 PM EAT 2023 ramaroson su[13123]: pam_unix(su:session): session closed for user misa
+Fri Oct 13 04:34:10 PM EAT 2023 ramaroson su[13059]: pam_unix(su:session): session closed for user mit
+Fri Oct 13 04:34:10 PM EAT 2023 ramaroson su[12971]: pam_unix(su:session): session closed for user misa
+Fri Oct 13 04:34:12 PM EAT 2023 ramaroson su[12906]: pam_unix(su:session): session closed for user mit
+Fri Oct 13 04:34:12 PM EAT 2023 ramaroson su[12849]: pam_unix(su:session): session closed for user misa
+Fri Oct 13 04:34:26 PM EAT 2023 ramaroson su[13435]: pam_unix(su:session): session opened for user tojo(uid= 
+Fri Oct 13 04:34:26 PM EAT 2023 ramaroson su[13435]: (to misa) tojo on pts/0
+Fri Oct 13 04:34:26 PM EAT 2023 ramaroson su[13435]: pam_unix(su:session): session opened for user misa(uid=1002) by tojo(uid=1000)
+Fri Oct 13 04:34:32 PM EAT 2023 ramaroson su[13489]: pam_unix(su:session): session opened for user tojo(uid= 
+Fri Oct 13 04:34:32 PM EAT 2023 ramaroson su[13489]: (to misa) tojo on pts/0
+Fri Oct 13 04:34:32 PM EAT 2023 ramaroson su[13489]: pam_unix(su:session): session opened for user misa(uid=1002) by tojo(uid=1000)
+Fri Oct 13 04:34:53 PM EAT 2023 ramaroson su[13560]: pam_unix(su:session): session opened for user tojo(uid= 
+Fri Oct 13 04:34:53 PM EAT 2023 ramaroson su[13560]: (to mit) tojo on pts/0
+Fri Oct 13 04:34:53 PM EAT 2023 ramaroson su[13560]: pam_unix(su:session): session opened for user mit(uid=1001) by tojo(uid=1000)
+Fri Oct 13 04:35:23 PM EAT 2023 ramaroson su[13639]: pam_unix(su:session): session opened for user tojo(uid= 
+Fri Oct 13 04:35:23 PM EAT 2023 ramaroson su[13639]: (to misa) tojo on pts/0
+Fri Oct 13 04:35:23 PM EAT 2023 ramaroson su[13639]: pam_unix(su:session): session opened for user misa(uid=1002) by tojo(uid=1000)
+Fri Oct 13 04:35:44 PM EAT 2023 ramaroson su[13639]: pam_unix(su:session): session closed for user misa
+Fri Oct 13 04:35:47 PM EAT 2023 ramaroson su[13560]: pam_unix(su:session): session closed for user mit
+Fri Oct 13 04:35:49 PM EAT 2023 ramaroson su[13489]: pam_unix(su:session): session closed for user misa
+Fri Oct 13 04:35:49 PM EAT 2023 ramaroson su[13435]: pam_unix(su:session): session closed for user misa
+Fri Oct 13 04:36:00 PM EAT 2023 ramaroson su[13859]: pam_unix(su:session): session opened for user tojo(uid= 
+Fri Oct 13 04:36:00 PM EAT 2023 ramaroson su[13859]: (to misa) tojo on pts/0
+Fri Oct 13 04:36:00 PM EAT 2023 ramaroson su[13859]: pam_unix(su:session): session opened for user misa(uid=1002) by tojo(uid=1000)
+Fri Oct 13 04:37:17 PM EAT 2023 ramaroson su[13859]: pam_unix(su:session): session closed for user misa
+Sun Oct 15 09:20:18 AM EAT 2023 ramaroson su[26668]: pam_unix(su:session): session opened for user tojo(uid= 
+Sun Oct 15 09:20:18 AM EAT 2023 ramaroson su[26668]: (to misa) tojo on pts/0
+Sun Oct 15 09:20:18 AM EAT 2023 ramaroson su[26668]: pam_unix(su:session): session opened for user misa(uid=1002) by tojo(uid=1000)
+Sun Oct 15 09:20:32 AM EAT 2023 ramaroson su[26713]: pam_unix(su:session): session opened for user tojo(uid= 
+Sun Oct 15 09:20:32 AM EAT 2023 ramaroson su[26713]: (to misa) tojo on pts/0
+Sun Oct 15 09:20:32 AM EAT 2023 ramaroson su[26713]: pam_unix(su:session): session opened for user misa(uid=1002) by tojo(uid=1000)
+Sun Oct 15 09:20:39 AM EAT 2023 ramaroson su[26753]: pam_unix(su:session): session opened for user tojo(uid= 
+Sun Oct 15 09:20:39 AM EAT 2023 ramaroson su[26753]: (to mit) tojo on pts/0
+Sun Oct 15 09:20:39 AM EAT 2023 ramaroson su[26753]: pam_unix(su:session): session opened for user mit(uid=1001) by tojo(uid=1000)
+Sun Oct 15 09:20:47 AM EAT 2023 ramaroson su[26797]: pam_unix(su:session): session opened for user tojo(uid= 
+Sun Oct 15 09:20:47 AM EAT 2023 ramaroson su[26797]: (to misa) tojo on pts/0
+Sun Oct 15 09:20:47 AM EAT 2023 ramaroson su[26797]: pam_unix(su:session): session opened for user misa(uid=1002) by tojo(uid=1000)
+Sun Oct 15 09:20:51 AM EAT 2023 ramaroson su[26834]: pam_unix(su:session): session opened for user tojo(uid= 
+Sun Oct 15 09:20:51 AM EAT 2023 ramaroson su[26834]: (to misa) tojo on pts/0
+Sun Oct 15 09:20:51 AM EAT 2023 ramaroson su[26834]: pam_unix(su:session): session opened for user misa(uid=1002) by tojo(uid=1000)
+Sun Oct 15 09:20:58 AM EAT 2023 ramaroson su[26834]: pam_unix(su:session): session closed for user misa
+Sun Oct 15 09:20:58 AM EAT 2023 ramaroson su[26797]: pam_unix(su:session): session closed for user misa
+Sun Oct 15 09:20:59 AM EAT 2023 ramaroson su[26753]: pam_unix(su:session): session closed for user mit
+Sun Oct 15 09:20:59 AM EAT 2023 ramaroson su[26713]: pam_unix(su:session): session closed for user misa
+Sun Oct 15 09:20:59 AM EAT 2023 ramaroson su[26668]: pam_unix(su:session): session closed for user misa
+Tue Oct 17 11:06:31 AM EAT 2023 ramaroson su[22988]: pam_unix(su:session): session opened for user tojo(uid= 
+Tue Oct 17 11:06:31 AM EAT 2023 ramaroson su[22988]: (to misa) tojo on pts/1
+Tue Oct 17 11:06:31 AM EAT 2023 ramaroson su[22988]: pam_unix(su:session): session opened for user misa(uid=1002) by tojo(uid=1000)
+Tue Oct 17 11:06:49 AM EAT 2023 ramaroson su[22988]: pam_unix(su:session): session closed for user misa
+Tue Oct 17 11:08:36 AM EAT 2023 ramaroson su[23575]: pam_unix(su:session): session opened for user tojo(uid= 
+Tue Oct 17 11:08:36 AM EAT 2023 ramaroson su[23575]: (to mit) tojo on pts/1
+Tue Oct 17 11:08:36 AM EAT 2023 ramaroson su[23575]: pam_unix(su:session): session opened for user mit(uid=1001) by tojo(uid=1000)
+Tue Oct 17 11:08:51 AM EAT 2023 ramaroson su[23634]: pam_unix(su:session): session opened for user tojo(uid= 
+Tue Oct 17 11:08:51 AM EAT 2023 ramaroson su[23634]: (to mit) tojo on pts/1
+Tue Oct 17 11:08:51 AM EAT 2023 ramaroson su[23634]: pam_unix(su:session): session opened for user mit(uid=1001) by tojo(uid=1000)
+Tue Oct 17 11:09:34 AM EAT 2023 ramaroson su[23723]: pam_unix(su:session): session opened for user tojo(uid= 
+Tue Oct 17 11:09:34 AM EAT 2023 ramaroson su[23723]: (to tojo) tojo on pts/1
+Tue Oct 17 11:09:34 AM EAT 2023 ramaroson su[23723]: pam_unix(su:session): session opened for user tojo(uid=1000) by tojo(uid=1000)
+Tue Oct 17 11:09:45 AM EAT 2023 ramaroson su[23782]: pam_unix(su:session): session opened for user tojo(uid= 
+Tue Oct 17 11:09:45 AM EAT 2023 ramaroson su[23782]: (to mit) tojo on pts/1
+Tue Oct 17 11:09:45 AM EAT 2023 ramaroson su[23782]: pam_unix(su:session): session opened for user mit(uid=1001) by tojo(uid=1000)
+Tue Oct 17 11:09:53 AM EAT 2023 ramaroson su[23833]: pam_unix(su:session): session opened for user tojo(uid= 
+Tue Oct 17 11:09:53 AM EAT 2023 ramaroson su[23833]: (to mit) tojo on pts/1
+Tue Oct 17 11:09:53 AM EAT 2023 ramaroson su[23833]: pam_unix(su:session): session opened for user mit(uid=1001) by tojo(uid=1000)
+Tue Oct 17 11:09:55 AM EAT 2023 ramaroson su[23833]: pam_unix(su:session): session closed for user mit
+Tue Oct 17 11:09:56 AM EAT 2023 ramaroson su[23782]: pam_unix(su:session): session closed for user mit
+Tue Oct 17 11:09:56 AM EAT 2023 ramaroson su[23723]: pam_unix(su:session): session closed for user tojo
+Tue Oct 17 11:09:58 AM EAT 2023 ramaroson su[23634]: pam_unix(su:session): session closed for user mit
+Tue Oct 17 11:10:00 AM EAT 2023 ramaroson su[23575]: pam_unix(su:session): session closed for user mit
+Fri Oct 20 12:36:13 PM EAT 2023 ramaroson su[52916]: pam_unix(su:session): session opened for user tojo(uid= 
+Fri Oct 20 12:36:13 PM EAT 2023 ramaroson su[52916]: (to mit) tojo on pts/0
+Fri Oct 20 12:36:13 PM EAT 2023 ramaroson su[52916]: pam_unix(su:session): session opened for user mit(uid=1001) by tojo(uid=1000)
+Fri Oct 20 12:36:19 PM EAT 2023 ramaroson su[52995]: pam_unix(su:session): session opened for user tojo(uid= 
+Fri Oct 20 12:36:19 PM EAT 2023 ramaroson su[52995]: (to mit) tojo on pts/0
+Fri Oct 20 12:36:19 PM EAT 2023 ramaroson su[52995]: pam_unix(su:session): session opened for user mit(uid=1001) by tojo(uid=1000)
+Fri Oct 20 12:36:23 PM EAT 2023 ramaroson su[52995]: pam_unix(su:session): session closed for user mit
+Fri Oct 20 12:36:23 PM EAT 2023 ramaroson su[52916]: pam_unix(su:session): session closed for user mit

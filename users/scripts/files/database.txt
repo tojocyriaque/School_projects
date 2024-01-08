@@ -1,0 +1,16 @@
+username=tojo;password=123456
+username=mit;password=12345678
+username=misa;password=123456
+username=tojotiana;password=clear
+username=%26%C3%A9%22;password=
+username=tojo123;password=ramaroson
+username=user;password=12345
+username=tenaizy;password=tsizy
+username=tojocyriaque;password=123456
+
+username=ramaroson;password=bearsbeat
+username=olona;password=123
+username=quelqun;password=mot+de+passe
+username=;password=
+username=oay;password=oay
+username=smdflksdmlf%C3%B9ksdlmf;password=s%C3%B9dlfksd%C3%B9flkdsjf%C3%B9lsdkfj%C3%B9

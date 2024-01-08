@@ -1,0 +1,18 @@
+#!/usr/bin/zsh
+
+# for the authlog file
+./generate
+
+# for logins
+gcc src/signin/signin.c -o scripts/signin.cgi
+gcc src/signup/signup.c -o scripts/signup.cgi
+
+# for home and logout
+gcc src/home/home.c -o scripts/home.cgi
+gcc src/logout/logout.c -o scripts/logout.cgi
+
+# for search
+gcc src/search/search.c -o scripts/search.cgi
+
+# for nosearch
+gcc src/nosearch/nosearch.c -o scripts/nosearch.cgi

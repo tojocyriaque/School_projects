@@ -1,0 +1,58 @@
+body {
+	display: flex;
+	background: url("../images/lakeside.jpg");
+	background-color: black;
+	background-size: cover;
+	background-repeat: no-repeat;
+	overflow: hidden;
+}
+
+.message{
+	position: absolute;
+	top: 0vw;
+	left: 0vh;
+	width: 25vw;
+	height: 100vh;
+	padding: 15em 0 0 15em;
+	display: flex;
+	scale: 2;
+}
+
+.message h1{
+	font-family: sans-serif;
+	font-size: xx-large;
+	color: white;
+}
+
+.links{
+	position: absolute;
+	top: 0vh;
+	right: 0vw;
+	width: 25vw;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background-color: #00000050;
+	border: 1px solid skyblue;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+
+.btns{
+	margin: 2.5em;
+}
+
+input{
+	border-radius: 5px;
+	border: 1px solid skyblue;
+	font-family: sans-serif;
+	font-size: x-large;	
+	background-color: #0aa4b0;
+	padding: 15px;	
+	color: white;
+}
+
+
+
+

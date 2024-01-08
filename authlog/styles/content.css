@@ -1,0 +1,138 @@
+body{	
+	background: url("../images/lakeside.jpg");
+	background-size: cover;
+	font-family: sans-serif;
+}
+
+h1{
+	font-size: xx-large;
+	color: #fff;
+	margin-left: 10px;
+}
+
+h5 {
+	font-size: x-large;
+	margin-left: 20px;
+}
+
+a {
+	font-size: medium;
+	text-decoration: none;
+	z-index: 100000;
+}
+
+input {
+	font-size: large;
+	z-index: 1000;
+	border-radius: 5px;
+	border: 1px solid skyblue;
+	background-color: #0ab;
+	color: white;
+}
+
+tr {
+	padding: 2px 0 0 2px;
+	background: #ffffff10;
+	border-color: #fff;
+}
+
+.searchentry {
+	border: 1px solid white;
+	border-radius: 5px;
+	outline: none;
+	color: #fff;
+	background-color: #ffffff40;
+	padding-left: 5px;
+}
+
+.searchentry::placeholder{
+	color:#ffffff50;
+}
+
+.searchsubmit{
+	color: white;
+	background-color: #0ab;
+	border: 1px solid skyblue;
+	border-radius: 5px;
+}
+
+.pages {
+	display: flex;
+	justify-content: center;
+	width: 100vw;
+	position: absolute;
+	top: 0;
+	margin: 10px 0 0 0;
+}
+
+.page_n {
+	margin: 0 5px;
+}
+
+.page_n input{
+	padding: 1px;	
+	width: 1.5em;
+	height: 1.5em;
+	border-radius: 1em;
+	border: 2px solid skyblue;
+	background-color: #fff;
+	color: skyblue;
+}
+
+.searchform{
+	margin: 5px 0 10px 20px;
+}
+
+.searchform input{
+	padding: 5px;
+	margin-right: 5px;
+}
+
+.logout {
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin: 10px 30px 0 0;
+	padding: 5px;
+}
+
+.bigtable{
+	margin: 30px 0 0 1vw;
+	border: 1px solid white;
+	border-radius: 5px;
+	background: #00aabb50;
+}
+
+.datetable{
+	width: 58vw;
+	height: fit-content;
+}
+
+.usertable{
+	width: 18vw;
+	height: fit-content;
+}
+
+.sessiontable{
+	width: 19vw;
+	height: fit-content;
+}
+
+.user {
+	font-family: arial;
+	color: #fff;
+}
+
+.date {
+	color: #bff;
+}
+
+.asa_mihidy{
+	color: #ffa;
+}
+
+.asa_misokatra{
+	color: #8ee;
+}
+
+

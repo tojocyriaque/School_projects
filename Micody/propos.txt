@@ -1,0 +1,30 @@
+
+Nom du paquet: editeur
+Version: 1.0
+Auteur: Groupe3mit <Groupe3mit@gmail.com>
+Description: Editeur de texte en C");
+
+Installation
+============
+Pour installer le paquet, exécutez la commande suivante :\nsudo dpkg -i micody.deb");
+
+Dépendances
+===========
+Ce paquet dépend de la bibliothèque curses.h pour fonctionner et aussi de figlet. Si vous ne l'avez pas déjà installé, vous pouvez l'installer en exécutant quelques commandes avant de l'installer
+sudo apt install build-essential
+sudo apt-get install libncurses-dev\nsudo apt-get insall figlet
+
+Utilisation
+===========
+Après l'installation, vous pouvez utiliser l'éditeur en tapant la commande suivante dans un terminal :micody
+
+Options
+=======
+L'éditeur prend en charge les options suivantes :
+   - v : Afficher la version de l'éditeur"
+   - h : Afficher l'aide
+
+
+Bug Reports
+===========
+Pour signaler un bug ou suggérer une amélioration, veuillez contacter l'auteur à l'adresse email mentionnée ci-dessus.

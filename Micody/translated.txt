@@ -1,0 +1,2 @@
+/home/manoa/snap/usr/local/src/conversion.c:15:16 : erreur : 'ariary' non déclaré (première utilisation dans cette fonction)
+/home/manoa/snap/usr/local/src/conversion.c:15:16 : note : chaque identifiant non déclaré n'est signalé qu'une seule fois pour chaque fonction dans laquelle il apparaît

@@ -1,5 +1,5 @@
 <?php
-  $cleared = explode(",",$_POST["clear"]);
+  $cleared = explode(",",$_GET["clear"]);
   $lines = $_POST["lines"]."|".$_POST["line"].",".$_POST["A"].",".$_POST["B"];
 
   $s_lines = explode("|", $lines);
@@ -88,7 +88,7 @@
   for ($i=1; $i < 30; $i++) {
     if(!in_array($i, $cleared)){
       echo "<tr><div>
-              <a id='clear' href='http://www.multiplication.cr/index.php?clear=";
+              <a href='http://www.multiplication.cr/index.php?clear=";
 
       if(!empty($cleared)){
         foreach ($cleared as $num) {
@@ -98,7 +98,7 @@
       echo "$i";
       echo "&lines=$lines'>effacer</a>";
 
-      echo "<a id='modify' href='http://www.multiplication.cr/modify.php?&clear=";
+      echo "<a href='http://www.multiplication.cr/modify.php?&clear=";
       if(!empty($cleared)){
         foreach ($cleared as $num) {
           echo "$num,";

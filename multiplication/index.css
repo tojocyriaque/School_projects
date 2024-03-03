@@ -24,10 +24,10 @@ td{
   margin: 5px;
 }
 
-#A:nth-child(2n){
+div:nth-child(2n){
   color: red;
 }
-#A:nth-child(2n+1){
+div:nth-child(2n+1){
   color: green;
 }
 

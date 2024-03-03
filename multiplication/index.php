@@ -29,13 +29,23 @@
     }
   }
 
-  echo "<table>";
-  echo "<td><table><h1>A</h1>";
-  for ($i=1; $i<10; $i++){  
+  echo 
+    "<html>
+      <head>
+        <meta charset=UTF-8>
+        <link rel='stylesheet' href='index.css'>
+        <title>multiplication</title>
+      </head>
+      <body>
+    ";
+
+  echo "<table id='big_table'>";
+  echo "<td id='A'><table id='A'><h1>A</h1>";
+  for ($i=1; $i<30; $i++){  
     if(!in_array($i, $cleared)){
       if(in_lines($i, $split_lines)){
         $a = getA_B($i, $split_lines)[0];
-        echo "<tr><div>$a</div></tr>";
+        echo "<tr><div id=''>$a</div></tr>";
       }
       else{
         echo "<tr><div>7</div></tr>";
@@ -44,8 +54,8 @@
   }
   echo "</table></td>";
 
-  echo "<td><table><h1>B</h1>";
-  for ($i=1; $i < 10; $i++) { 
+  echo "<td id='B'><table id='B'><h1>B</h1>";
+  for ($i=1; $i < 30; $i++) { 
     if(!in_array($i, $cleared)){
       if(in_lines($i, $split_lines)){
         $b = getA_B($i, $split_lines)[1];
@@ -58,8 +68,8 @@
   }
   echo "</table></td>";
   
-  echo "<td><table><h1>C</h1>";
-  for ($i=1; $i < 10; $i++) { 
+  echo "<td id='C'><table id='C'><h1>C</h1>";
+  for ($i=1; $i < 30; $i++) { 
     if(!in_array($i,$cleared)){
       if(in_lines($i, $split_lines)){
         $ab = getA_B($i, $split_lines);
@@ -74,11 +84,11 @@
   }
   echo "</table></td>";
 
-  echo "<td><table><h1>Action</h1>";
-  for ($i=1; $i < 10; $i++) {
+  echo "<td><table id='Action'><h1>Action</h1>";
+  for ($i=1; $i < 30; $i++) {
     if(!in_array($i, $cleared)){
       echo "<tr><div>
-              <a href='http://www.multiplication.cr/index.php?clear=";
+              <a id='clear' href='http://www.multiplication.cr/index.php?clear=";
 
       if(!empty($cleared)){
         foreach ($cleared as $num) {
@@ -88,7 +98,7 @@
       echo "$i";
       echo "&lines=$lines'>effacer</a>";
 
-      echo "<a href='http://www.multiplication.cr/modify.php?&clear=";
+      echo "<a id='modify' href='http://www.multiplication.cr/modify.php?&clear=";
       if(!empty($cleared)){
         foreach ($cleared as $num) {
           echo "$num,";
@@ -100,6 +110,7 @@
   }
   echo "</td></table>";
   echo "</td></table>";
-  
+  echo "</body></html>"
+
 ?>
 

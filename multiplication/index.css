@@ -1,0 +1,48 @@
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
+  font-size: larger;
+  text-align: center;
+}
+
+#big_table{
+  padding: 5px;
+  border: 2px solid #208;
+  border-radius: 10px;
+}
+
+h1{
+  color: #208;
+}
+
+td{
+  padding: 40px;
+  border: 2px solid #00f;
+  margin: 5px;
+}
+
+#A:nth-child(2n){
+  color: red;
+}
+#A:nth-child(2n+1){
+  color: green;
+}
+
+tr{
+  margin: 5px;
+}
+
+div{
+  text-align: center;
+  margin: 5px;
+}
+
+a{
+  text-decoration: none;
+  margin: 5px;
+  padding: 5px;
+  border: 1px solid blue;
+}

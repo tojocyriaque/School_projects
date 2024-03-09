@@ -1,4 +1,5 @@
 #include "mainwindow.h"
+#include "verify.h"
 #include "ui_mainwindow.h"
 
 MainWindow::MainWindow(QWidget *parent)
@@ -54,6 +55,9 @@ void MainWindow::setupInterfacesFrame(){
             ui->destinationInterfaceComboBox->addItem(interface);
         }
     }
+    ui->sourceInterfaceComboBox->addItem("unspecified");
+    ui->destinationInterfaceComboBox->addItem("unspecified");
+    findInterfaces->close();
 }
 
 QFrame* MainWindow::ruleFrame(QString rule, int num){
@@ -117,6 +121,7 @@ void MainWindow::showRules(){
             vl->addWidget(ruleFrame(QString::fromStdString(chain+" ")+s, ruleNum));
         }
     }
+    rules_process->close();
 }
 
 void MainWindow::showRuleDetails(QString rule){
@@ -128,16 +133,29 @@ void MainWindow::showRuleDetails(QString rule){
 
 void MainWindow::addNewRule(){
     QProcess *add = new QProcess;
-    QString chain = ui->chainComboBox->currentText();
-    QString protocol = ui->protocolComboBox->currentText();
-    QStringList destPorts = ui->destinationPortsLineEdit->text().split(";");
-    QStringList srcPorts = ui->sourcePortsLineEdit->text().split(";");
-    QString policy = ui->policyComboBox->currentIndex();
-    QString mac = ui->macAddrLineEdit->text();
-    QString srcAddr = ui->sourceAddrLineEdit->tex();
-    QString destAddr = ui->destinationAddrLineEdit->text();
-    QString srcIface = ui->sourceInterfaceComboBox->currentText();
-    QString destIface = ui->destinationInterfaceComboBox->currentText();
+    Rule rule;
+    rule.chain = ui->chainComboBox->currentText();
+    rule.protocol = ui->protocolComboBox->currentText();
+    rule.destPorts = ui->destinationPortsLineEdit->text().split(";");
+    rule.srcPorts = ui->sourcePortsLineEdit->text().split(";");
+    rule.policy = ui->policyComboBox->currentText();
+    rule.mac = ui->macAddrLineEdit->text();
+    rule.srcAddr = ui->sourceAddrLineEdit->text();
+    rule.destAddr = ui->destinationAddrLineEdit->text();
+    rule.srcIface = ui->sourceInterfaceComboBox->currentText();
+    rule.destIface = ui->destinationInterfaceComboBox->currentText();
+
+    if(isValid(rule)){
+        QString command = ruleToCommand(rule);
+        std::cout << command.toStdString() << std::endl;
+        add->execute(QString("/bin/sh"),QStringList() << "-c" << command);
+        add->close();
+        showRules();
+    }
+    else{
+        std::cout << "Tsy nety" << std::endl;
+    }
+
 }
 
 void MainWindow::removeRule(QString rule, int num){
